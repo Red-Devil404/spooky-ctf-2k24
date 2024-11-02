@@ -5,7 +5,7 @@ Here is the challenge description:
 
 ### Challenge picture
 
-![picture](./images/yeoldeorphanarium.svg)
+![picture](./images/yeoldeorphanarium.PNG)
 
 Here is the hint:
 
@@ -17,5 +17,4 @@ In the challenge we were given by the .svg(Scalable Vector Graphics) image. I op
 
 and after this i found the flag under the building category.
 
-
-![answer](./images/1.png)
+![solution](./images/1.png)
