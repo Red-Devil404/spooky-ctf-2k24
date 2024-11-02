@@ -17,4 +17,4 @@ In the challenge we were given by the .svg(Scalable Vector Graphics) image. I op
 
 and after this i found the flag under the building category.
 
-![solution](./images/1.png)
+![solution](./images/1.png) 

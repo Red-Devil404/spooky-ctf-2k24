@@ -46,4 +46,4 @@ We found the password hashes for 3 users. But looking at the description, Consor
 
 ![crack](./crackstation.png)
 
-And here is our flag! By simply wrapping this in NICC{}, we got our valid flag. `NICC{1987evilovekoen}`
+And here is our flag! By simply wrapping this in NICC{}, we got our valid flag. `NICC{1987evilovekoen}` 
