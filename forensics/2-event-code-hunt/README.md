@@ -1,26 +1,26 @@
 ### Challenge description
-![description](./1.png)
+![description](./images/1.png)
 
 ### Solution
 Here. We are given with the zip file which has 5 event log files and 1 text file.
 
-![solution](./2.png)
+![solution](./images/2.png) 
 
 Seeing the contents of the text file. 
 
-![contents](./3.PNG)
+![contents](./images/3.PNG)
 
 It seems like some kind of binary data or binary strings. 
 
 Examining the files one by one.
 
-![examining](./4.PNG)
+![examining](./images/4.PNG)
 
 when i displayed the contents of the file by using the command
 cat PowershellOP.evtx 
 i saw these lines:
 
-![lines](./5.png)
+![lines](./images/5.png)
 
 which were something like these
 
@@ -30,7 +30,7 @@ Documents\Chrome.py .\Documents\flag.txt .\Documents\encrypt_flag.txt I_Like_Big
 
 then i made a python script to decrypt the lines present in encrypt_flag.txt using 'I_Like_Big_Bytes_And_I_cannot_Lie!' as a key.
 
- ![script](./6.PNG)
+ ![script](./images/6.PNG)
 
  import sys
 
@@ -74,6 +74,6 @@ if __name__ == "__main__":
 
 now after running the python script here i got the flag:
 
- ![command](./7.PNG)
+ ![command](./images/7.png)
 
- ![final flag](./8.PNG)
+ ![final flag](./images/8.PNG)
