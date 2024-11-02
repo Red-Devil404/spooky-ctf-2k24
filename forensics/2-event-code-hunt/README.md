@@ -1,20 +1,27 @@
 ### Challenge description
-./1.png
+![description](./1.png)
 
 ### Solution
 Here. We are given with the zip file which has 5 event log files and 1 text file.
-./2.png
+
+![solution](./2.png)
 
 Seeing the contents of the text file. 
-./3.png
+
+![contents](./3.PNG)
+
 It seems like some kind of binary data or binary strings. 
 
 Examining the files one by one.
-./4.png
+
+![examining](./4.PNG)
+
 when i displayed the contents of the file by using the command
 cat PowershellOP.evtx 
 i saw these lines:
-./5.png
+
+![lines](./5.png)
+
 which were something like these
 
 sys.argv[2]`n    key = sys.argv[3]`n`n    with open(input_file, 'rb') as f:`n        i�Gl&_data = f.read()`n`n    result_data = process_data(input_data, key)`n`n 	 
@@ -23,7 +30,7 @@ Documents\Chrome.py .\Documents\flag.txt .\Documents\encrypt_flag.txt I_Like_Big
 
 then i made a python script to decrypt the lines present in encrypt_flag.txt using 'I_Like_Big_Bytes_And_I_cannot_Lie!' as a key.
 
- ./6.png
+ ![script](./6.PNG)
 
  import sys
 
@@ -66,6 +73,7 @@ if __name__ == "__main__":
     decrypt_file(input_file, output_file, key)
 
 now after running the python script here i got the flag:
- ./7.png
 
- ./8.png
+ ![command](./7.PNG)
+
+ ![final flag](./8.PNG)
