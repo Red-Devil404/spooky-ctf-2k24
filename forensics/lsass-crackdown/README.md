@@ -7,7 +7,7 @@ Anna Circoh has intercepted a highly sensitive memory dump, but The Consortium h
 
 ### Solution
 
-We were given a lsa minidump file for the challenge. We can use [pypykatz](https://github.com/skelsec/pypykatz) which is the Python implementation of Mimikatz and can be used for parsing the secrets hidden in the LSASS process. By simply providing the file to `pypykatz` using the command: `pypykatz lsa minidump dump.DMP`, we saw some interesting data:
+We were given a lsa minidump file for the challenge. There is a great article regarding analyzing these files [here](https://medium.com/@offsecdeer/dumping-lsass-remotely-from-linux-efc47391e56d). We can use [pypykatz](https://github.com/skelsec/pypykatz) which is the Python implementation of Mimikatz and can be used for parsing the secrets hidden in the LSASS process. By simply providing the file to `pypykatz` using the command: `pypykatz lsa minidump dump.DMP`, we saw some interesting data:
 
 > First few lines of output
 ```
