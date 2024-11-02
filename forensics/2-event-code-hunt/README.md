@@ -74,6 +74,6 @@ if __name__ == "__main__":
 
 now after running the python script here i got the flag:
 
- ![command](./images/7.png)
+ ![command](./images/7.PNG)
 
  ![final flag](./images/8.PNG)
