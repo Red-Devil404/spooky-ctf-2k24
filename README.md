@@ -6,6 +6,6 @@ Repository for the BSides Pakistan community's participation in the Spooky CTF, 
 
 ### Scoreboard
 
-We got 6th position 14793 points.
+We got 6th position with 14793 points.
 
 ![score](./scoreboard.png)
