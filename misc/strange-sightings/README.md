@@ -21,7 +21,10 @@ At first glance, it seems like a morse code.
 ![Blinking Light](./images/blinking-light.gif)
 
 
-So now we have to read the morse code from the blinking light. [Here](https://www.youtube.com/watch?v=i3HOGdQkTvM) is the great explanation of how to do it. In short, when light blinks for one second, it is considered a dot `.` and for 3 second blink, it is considered a dash `-` . If it stays off for 3 seconds it means that the new character is starting. Following the same pattern we extracted this morse code:
+So now we have to read the morse code from the blinking light. [Here](https://www.youtube.com/watch?v=i3HOGdQkTvM) is the great explanation of how to do it. 
+[Here](https://morsecode.world/international/morse2.html) is the explanation table of how to do it.
+ 
+In short, when light blinks for one second, it is considered a dot `.` and for 3 second blink, it is considered a dash `-` . If it stays off for 3 seconds it means that the new character is starting. Following the same pattern we extracted this morse code:
 
 `.---- / ...-- / --... / .-.-.- / .---- / ---.. / ....- / .-.-.- / ..... / --... / .-.-.- / .---- / ---.. / --...`
 
