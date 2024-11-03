@@ -16,9 +16,7 @@ Examining the files one by one.
 
 ![examining](./images/4.PNG)
 
-when i displayed the contents of the file by using the command
-cat PowershellOP.evtx 
-i saw these lines:
+when i displayed the contents of the file by using the command `cat PowershellOP.evtx` I saw these lines:
 
 ![lines](./images/5.png)
 
@@ -30,9 +28,10 @@ Documents\Chrome.py .\Documents\flag.txt .\Documents\encrypt_flag.txt I_Like_Big
 
 then i made a python script to decrypt the lines present in encrypt_flag.txt using 'I_Like_Big_Bytes_And_I_cannot_Lie!' as a key.
 
- ![script](./images/6.PNG)
+<!--![script](./images/6.PNG)-->
 
- import sys
+```python
+import sys
 
 def decrypt_file(input_file, output_file, key):
     # Placeholder for actual decryption process
@@ -71,6 +70,7 @@ if __name__ == "__main__":
     key = sys.argv[3]
 
     decrypt_file(input_file, output_file, key)
+```
 
 now after running the python script here i got the flag:
 
