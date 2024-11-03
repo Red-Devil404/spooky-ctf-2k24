@@ -26,7 +26,7 @@ sys.argv[2]`n    key = sys.argv[3]`n`n    with open(input_file, 'rb') as f:`n   
 import sys`n`ndef process_data(input_bytes, key):`n    key_bytes = key.encode('utf-8')6
 Documents\Chrome.py .\Documents\flag.txt .\Documents\encrypt_flag.txt I_Like_Big_Bytes_And_I_cannot_Lie!6f2352a0-5370-44b5-9fae-5cb96070ed74
 
-then i made a python script to decrypt the lines present in encrypt_flag.txt using 'I_Like_Big_Bytes_And_I_cannot_Lie!' as a key.
+then i made a python script to decrypt the lines present in encrypt_flag.txt using __I_Like_Big_Bytes_And_I_cannot_Lie!__ as a key.
 
 <!--![script](./images/6.PNG)-->
 
