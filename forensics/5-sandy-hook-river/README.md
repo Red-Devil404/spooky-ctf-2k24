@@ -8,7 +8,7 @@ And we were given the message.rar file.
 ###Solution
 When i read the description of the challenge carefully i extracted some words from it which were bold written in the paragraphs.
 
-![chall-description] (images/3.png)
+![chall-description](images/3.png)
 
 which turned out to be a : WhisperbreathsighopaquestuttersstonesLoch NessChupacabraesteemed
 
@@ -16,7 +16,7 @@ Now moving forward,
 
 When i opened the rar file manually, it just contained the message.txt:
 
-![message-txt] (images/2.PNG)
+![message-txt](images/2.PNG)
 
 When extracting the rar file i faced this issue although the message.txt file was extracted:
 
