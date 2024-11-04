@@ -5,7 +5,8 @@ The Zorglax shared this weird audio they captured while scanning the various bod
 
 ### Solution
 
-> Note: We did not manage to solve this challenge during CTF. It was solved later by taking a hint.
+> [!Note]
+> We did not manage to solve this challenge during CTF. It was solved later by taking a hint.
 
 
 We were provided two files: `strange.report.txt` and `unknown.audio.mp3`. The contents of strange-report files seems to be encrypted data, probably our flag `Tvfd sxmkz fr7 pny9nw 2rv9ov4, yvuo6su9u p9 p2z9r9wdw 6xbrf 6sr 7b8t8...6ZNO{Vq6vg_xu_k4f_60upq}`.
@@ -18,7 +19,7 @@ The unknown-audio was a 56 seconds long audio file which contains some random no
 Later during the challenge, they revealed two hints.
 
 > [!TIP]
-> Hint 1: `Audio file is the key`
+> Hint 1: `Audio file is the key`<br>
 > Hint 2: `The key is 20 bytes long`
 
 
