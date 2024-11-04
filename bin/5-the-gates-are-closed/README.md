@@ -5,7 +5,7 @@ Here is the challenge description:
 
 And we were given the unknown file named as the gates-are-closed.
 
-### Solution
+### Solution  
 
 i used the **file** command in my linux to know the type of file.
 
