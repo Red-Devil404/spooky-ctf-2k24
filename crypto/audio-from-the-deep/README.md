@@ -17,6 +17,7 @@ The unknown-audio was a 56 seconds long audio file which contains some random no
 
 Later during the challenge, they revealed two hints.
 
+> [!TIP]
 > Hint 1: `Audio file is the key`
 > Hint 2: `The key is 20 bytes long`
 
