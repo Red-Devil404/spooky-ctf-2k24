@@ -13,7 +13,7 @@ We were provided two files: `strange.report.txt` and `unknown.audio.mp3`. The co
 
 The unknown-audio was a 56 seconds long audio file which contains some random noise. Analyzing audio file in Audacity did not reveal any useful information just a simple multi-stereo audio.
 
-![Audacity](./audacity.png)
+![Audacity](./images/audacity.png)
 
 
 Later during the challenge, they revealed two hints.
@@ -25,11 +25,11 @@ Later during the challenge, they revealed two hints.
 
 As the SHA-1 hash is also 20 bytes long, the first instinct was that the SHA-1 hash of audio file is the key. So we calculated the SHA-1 hash of the audio file.
 
-![Sha1 hash](./sha1.png)
+![Sha1 hash](./images/sha1.png)
 
 
 We tried different decryption algorithms but didn't find the correct one. Besides, it was just a guess that SHA-1 hash could be the key, so we decided to leave this method. Only to later find out that it was a **Ragbaby Cipher**. We can use [dcode.fr](https://www.dcode.fr/ragbaby-cipher) to decrypt our message using sha1sum as a key.
 
-![Flag](./flag.png)
+![Flag](./images/flag.png)
 
 And we got the flag. `nICC{3ch0s_0f_th3_4byss}`
